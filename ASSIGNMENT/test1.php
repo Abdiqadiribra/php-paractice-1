@@ -9,7 +9,7 @@
     <?php
     for ($i= 1; $i<=3;$i++) //row loop
         for ($j=1;$j<=5;$j++) //column loop
-        echo("Row is $i and column $j result is = "($i * $j) . "<br>");
+        echo("Row is $i and column $j result is = ".($i * $j) . "<br>");
     ?>
 </body>
 </html>
