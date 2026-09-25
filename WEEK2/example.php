@@ -7,7 +7,19 @@
 </head>
 <body>
     <?php
-echo "<h3>Example of multiple using while loop </h3>";
+
+    // Prints natural numbers from 1 to 15.
+
+     $i =1;
+     while($i <= 15){
+        echo"$i,";
+        $i++;}
+
+
+
+
+
+    echo "<h3>Example of multiple using while loop </h3>";
      $count = 1;
     while ($count<=12)
         {
